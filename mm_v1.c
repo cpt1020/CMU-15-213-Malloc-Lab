@@ -102,7 +102,7 @@ static void *coalesce(FreeBlockHeader *new_block)
         cur_block_end_addr = (cur_block_start_addr + cur_block_size);
 
         if (cur_block_end_addr == start_addr) {
-            cur_block->block_size += block_size;
+            cur_block->block_size += new_block->block_size;
             new_block = cur_block;
             prev_block->next_free_block = cur_block->next_free_block;
             cur_block = cur_block->next_free_block;
