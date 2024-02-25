@@ -63,3 +63,65 @@ $ make && ./mdriver -V
 | v7 | Segregate | Doubly<br>linked list | Size<br>(non-<br>decreasing<br>order) | First fit | Yes | 45 | 23 |
 | v8 | Segregate | Doubly<br>linked list | LIFO | First fit | Yes | 45 | 25 |
 | v9 | Segregate | Doubly<br>linked list | LIFO | First fit | Yes | 44 | 40 |
+
+### v1
+
+<p align=center>
+    <img src="img/v1.png">
+</p>
+
+### v2
+
+<p align=center>
+    <img src="img/v2.png">
+</p>
+
+### v3
+
+<p align=center>
+    <img src="img/v3.png">
+</p>
+
+### v4
+
+<p align=center>
+    <img src="img/v4.png">
+</p>
+
+### v5
+
+<p align=center>
+    <img src="img/v5_1.png">
+</p>
+
+<p align=center>
+    <img src="img/v5_2.png">
+</p>
+
+### v6
+
+<p align=center>
+    <img src="img/v6.png">
+</p>
+
+### v7
+
+<p align=center>
+    <img src="img/v7_1.png">
+</p>
+
+<p align=center>
+    <img src="img/v7_2.png">
+</p>
+
+### v8
+
+<p align=center>
+    <img src="img/v8.png">
+</p>
+
+### v9
+
+<p align=center>
+    <img src="img/v9.png">
+</p>
