@@ -302,10 +302,6 @@ void print_free_list()
             printf("[%d. size: %zu, alloc bit: %d, start addr: %zu, end addr: %zu] ", idx, GET_SIZE(ptr), GET_ALLOC_BIT(ptr), (size_t) ptr, ((size_t) ptr) + GET_SIZE(ptr));
             ptr = ptr->next;
             idx++;
-
-            if (idx == 10) {
-                break;
-            }
         }
         printf("\n");
     }
